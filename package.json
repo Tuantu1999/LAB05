@@ -1,5 +1,5 @@
 {
-  "name": "lab04",
+  "name": "lab06",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "font-awesome": "^4.7.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^5.0.1",
     "reactstrap": "^9.0.2",
     "web-vitals": "^2.1.4"
   },
