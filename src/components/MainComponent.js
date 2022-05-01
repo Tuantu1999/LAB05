@@ -10,6 +10,7 @@ import { COMMENTS } from "../shared/comments";
 import { PROMOTIONS } from "../shared/promotions";
 import { LEADERS } from "../shared/leaders";
 import DishDetail from "./DishdetailComponent";
+import "./App.css"
 
 class Main extends Component {
   constructor(props) {
