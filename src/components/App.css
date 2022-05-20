@@ -35,3 +35,7 @@ address{
 .banner{
     background-color: #2a2dae;
 }
+
+.icon a{
+    margin: 10px;
+}
