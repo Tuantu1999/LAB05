@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem, Modal, ModalBody, FormGroup, Col, Row, ModalHeader } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem, Modal, ModalBody, Col, Row, ModalHeader } from 'reactstrap';
 import { Link } from "react-router-dom";
 import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Loading } from './LoadingComponent';
 import { baseUrl } from '../shared/baseUrl';
-import { FadeTransform, Fade, Stagger } from 'react-animation-components';
+import { FadeTransform, Stagger } from 'react-animation-components';
 
 const maxLength = (len) => (val) => !(val) || (val.length <= len);
 const minLength = (len) => (val) => val && (val.length >= len);
